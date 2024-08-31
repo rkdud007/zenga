@@ -126,6 +126,7 @@ mod tests {
         assert!((body.velocity.x - expected_velocity.x).abs() < 1e-6);
         assert!((body.velocity.y - expected_velocity.y).abs() < 1e-6);
         // Check position
+        // TODO: check why this fails
         // assert!((body.position.x - expected_position.x).abs() < 1e-6);
         //assert!((body.position.y - expected_position.y).abs() < 1e-6);
 

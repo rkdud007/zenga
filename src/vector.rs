@@ -44,6 +44,7 @@ impl Vector {
 #[cfg(test)]
 mod tests {
     use super::*;
+    // TODO: why this deprecated?
     use std::f64::EPSILON;
 
     #[test]

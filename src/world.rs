@@ -1,4 +1,4 @@
-use crate::rigid_body::{RigidBody, Shape};
+use crate::rigid_body::RigidBody;
 use crate::vector::Vector;
 
 pub struct World {
@@ -31,12 +31,10 @@ impl World {
         // TODO: Implement collision detection and resolution here
     }
 
-    // Helper method to get the number of bodies in the world
-    fn body_count(&self) -> usize {
+    pub fn body_count(&self) -> usize {
         self.bodies.len()
     }
 
-    // Helper method to get a reference to a body by index
     pub fn get_body(&self, index: usize) -> Option<&RigidBody> {
         self.bodies.get(index)
     }
@@ -44,6 +42,8 @@ impl World {
 
 #[cfg(test)]
 mod tests {
+    use crate::rigid_body::Shape;
+
     use super::*;
 
     #[test]
