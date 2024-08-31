@@ -1,10 +1,9 @@
-# Physics Engine
+# Zenga
 
-Goal is to make just a _simple_ 2D toy physics engine project for having fun with good old physics.
+i wanted to build simple physics engine, and build zenga game will be fun and simple.
 
 ## Goal
 
-- [ ] collision detection
-- [ ] centroid
-- [ ] friction
-- [ ] conservation of mechanical energy
+- [ ] collision detection: i want objects to be stack on each other you know
+- [ ] centroid : center of mass is important for zenga game
+- [ ] friction : high friction will make zenga game more fun
